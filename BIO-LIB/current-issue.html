@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Add-book-page</title>
+	<title>current-issue</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -36,101 +37,79 @@
 		BIOMETRIC LIBRARY MANAGER
 		</span>
 	</div>
+
 	<div class="limiter">
+
 		<div class="container-login100">
 
 <!--left-->
-			<div class="wrap-login100">
-				<div class="left-links">
-            <i class="fa fa-home icon"  style="font-size: 1.5em;"></i>
-            <a href="home.html">Home</a>
 
-				</div>
-				<div class="left-links">
-          <i class="fa fa-users icon" style="font-size: 1.5em;"></i>
-					<a href="all-students.html">All students registered</a>
 
-				</div>
-				<div class="left-links">
-          <i class="fa fa-bars icon"  style="font-size: 1.5em;"></i>
-					<a href="all-book.html">All books in library</a>
 
-				</div>
-				<div class="left-links">
-            <i class="fa fa-folder-open icon" style="font-size: 1.5em;"></i>
-						<a href="add-book.html">Add books</a>
+<div class="wrap-login100">
+	<div class="left-links">
+			<i class="fa fa-home icon"  style="font-size: 1.5em;"></i>
+			<a href="home.html">Home</a>
 
-				</div>
-				<div class="left-links">
-          <i class="fa fa-sign-in icon" style="font-size: 1.5em;"></i>
+	</div>
+	<div class="left-links">
+		<i class="fa fa-users icon" style="font-size: 1.5em;"></i>
+		<a href="all-students.html">All students registered</a>
 
-						<a href="issue.html">Issue/Return books</a>
+	</div>
 
-				</div>
-				<div class="left-links">
-          <i class="fa fa-bars icon" style="font-size: 1.5em;"></i>
+	<div class="left-links">
+		<i class="fa fa-bars icon"  style="font-size: 1.5em;"></i>
+		<a href="all-book.html">All books in library</a>
 
-					<a href="current-issue.html">View all books currently issued</a>
+	</div>
+	<div class="left-links">
+			<i class="fa fa-folder-open icon" style="font-size: 1.5em;"></i>
+			<a href="add-book.html">Add books</a>
 
-				</div>
-				<div class="left-link2">
+	</div>
+	<div class="left-links">
+		<i class="fa fa-sign-in icon" style="font-size: 1.5em;"></i>
 
-				</div>
-				<div class="left-links">
-            <i class="fa fa-wrench icon" style="font-size: 1.5em;"></i>
+			<a href="issue.html">Issue/Return books</a>
 
-						<a href="login-page.html">Logout</a>
+	</div>
+	<div class="left-links">
+		<i class="fa fa-bars icon" style="font-size: 1.5em;"></i>
 
-				</div>
-			</div>
+		<a href="current-issue.html">View all books currently issued</a>
+
+	</div>
+	<div class="left-link2">
+
+	</div>
+	<div class="left-links">
+			<i class="fa fa-wrench icon" style="font-size: 1.5em;"></i>
+
+			<a href="login-page.html">Logout</a>
+
+	</div>
+</div>
 <!--left end-->
 <div class="right-main">
 
 
-			<div class="add-new">
+			<div class="issue-book">
 				<div class="login100-form-title" >
 					<span class="login100-form-title-1">
-					Add books
+						currently Issued Logs
 					</span>
 				</div>
 
-				<form class="login100-form validate-form">
-					<div class="wrap-input110 validate-input m-b-26" data-validate="Title is required">
-						<span class="label-input101">Title Of Book</span>
-						<input class="input-box-style" type="text" name="Title" placeholder="Enter the title of book here...">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input110 validate-input m-b-18" data-validate = "Author name is required">
-						<span class="label-input101">Author Name</span>
-						<input class="input-box-style" type="text" name="Author" placeholder="Enter the name of author for the book here..">
-						<span class="focus-input100"></span>
-					</div>
-          <div class="wrap-input110 validate-input m-b-18" >
-						<span class="label-input101">Description of Book</span>
-						<input class="input-box-style" type="text" name="Description" placeholder="Enter few lines about the book here">
-						<span class="focus-input100"></span>
-					</div>
-          <div class="wrap-input110 validate-input m-b-18" data-validate = "This book is required">
-            <span class="label-input101">Category</span>
-            <input class="input-box-style" type="text" name="Category" >
-            <span class="focus-input100"></span>
-          </div>
-          <div class="wrap-input110 validate-input m-b-18" >
-            <span class="label-input101">number of Issues</span>
-            <input class="input-box-style" type="text" name="issue" placeholder="How many issues are there?">
-            <span class="focus-input100"></span>
-          </div>
 
 
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Add Books
-						</button>
-					</div>
-				</form>
 			</div>
+
+			<!--last div-->
+
+		</div>
+	</div>
+	</div>
 
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
